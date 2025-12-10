@@ -9,10 +9,7 @@
 ---
 
 ## Latest News🔥
-- [2025/11] 
-- [2025/11] 
-- [2025/11] 
-- [2025/11] Initial release of vLLM Kunlun
+- [2025/12] Initial release of vLLM Kunlun
 
 ---
 
@@ -34,93 +31,6 @@ By utilizing the vLLM Kunlun plugin, popular open-source models, including Trans
 
 ---
 ## Supported Models
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background: white;
-    margin: 20px 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  th {
-    background: linear-gradient(135deg, #0E7DC6 0%, #0A5BA8 100%);
-    color: white;
-    padding: 14px 12px;
-    text-align: left;
-    font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    border: none;
-  }
-  
-  td {
-    padding: 12px;
-    border-bottom: 1px solid #e8e8e8;
-    font-size: 13px;
-    color: #333;
-  }
-  
-  tr:last-child td {
-    border-bottom: none;
-  }
-  
-  tbody tr {
-    transition: background-color 0.2s ease;
-  }
-  
-  tbody tr:hover {
-    background-color: #f5faff;
-  }
-  
-  tbody tr:nth-child(even) {
-    background-color: #fafbfc;
-  }
-  
-  tbody tr:nth-child(even):hover {
-    background-color: #f0f7fc;
-  }
-  
-  .status-support {
-    color: #22863a;
-    font-weight: 600;
-    font-size: 14px;
-  }
-  
-  .status-progress {
-    color: #f6a909;
-    font-weight: 600;
-    font-size: 14px;
-  }
-  
-  .status-coming {
-    color: #999;
-    font-size: 12px;
-    background-color: #f5f5f5;
-    padding: 2px 6px;
-    border-radius: 3px;
-    display: inline-block;
-  }
-  
-  .model-name {
-    font-weight: 500;
-    color: #1e40af;
-  }
-
-  h3 {
-    color: #1e40af;
-    font-size: 16px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-weight: 600;
-  }
-
-  h3:first-of-type {
-    margin-top: 0;
-  }
-</style>
 
 <h3>Generaltive Models</h3>
 <table>
