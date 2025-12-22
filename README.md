@@ -14,7 +14,7 @@
 
 # Overview
 
-vLLM Kunlun (vllm-kunlun) is a community-maintained hardware plugin designed to seamlessly run vLLM on the Kunlun XPU. It is the recommended approach for integrating the Kunlun backend within the vLLM community, adhering to the principles outlined in the [RFC]: Hardware pluggable. This plugin provides a hardware-pluggable interface that decouples the integration of the Kunlun XPU with vLLM.
+vLLM Kunlun (vllm-kunlun) is a community-maintained hardware plugin designed to seamlessly run vLLM on the Kunlun XPU. It is the recommended approach for integrating the Kunlun backend within the vLLM community, adhering to the principles outlined in the [RFC Hardware pluggable](https://github.com/vllm-project/vllm/issues/11162). This plugin provides a hardware-pluggable interface that decouples the integration of the Kunlun XPU with vLLM.
 
 By utilizing the vLLM Kunlun plugin, popular open-source models, including Transformer-like, Mixture-of-Expert, Embedding, and Multi-modal LLMs, can run effortlessly on the Kunlun XPU.
 
@@ -211,7 +211,9 @@ Please use the following recommended versions to get started quickly:
 
 ---
 
-## Contributing
+## Contribute to vLLM Kunlun
+
+If you're interested in contributing to this project, please read [Contributing to vLLM Kunlun](CONTRIBUTING.md) to vLLM Kunlun.
 
 See [CONTRIBUTING](https://vllm-kunlun.readthedocs.io/en/latest/developer_guide/contribution/index.html) for more details, which is a step-by-step guide to help you set up the development environment, build, and test.
 
