@@ -7,7 +7,7 @@
 
 ---
 
-## Latest News🔥
+## Latest News 🔥
 - [2025/12] Initial release of vLLM Kunlun
 
 ---
@@ -215,10 +215,16 @@ Please use the following recommended versions to get started quickly:
 
 If you're interested in contributing to this project, please read [Contributing to vLLM Kunlun](CONTRIBUTING.md) to vLLM Kunlun.
 
-See [CONTRIBUTING](https://vllm-kunlun.readthedocs.io/en/latest/developer_guide/contribution/index.html) for more details, which is a step-by-step guide to help you set up the development environment, build, and test.
 
-We welcome and value any contributions and collaborations:
-- Open an [Issue](https://github.com/baidu/vLLM-Kunlun/issues) if you find a bug or have a feature request
+## Star History 🔥
+
+We opened the project at Dec 8, 2025. We love open source and collaboration ❤️
+
+[![Star History Chart](https://api.star-history.com/svg?repos=baidu/vLLM-Kunlun&type=Date)](https://www.star-history.com/#baidu/vLLM-Kunlun&Date)
+
+## Sponsors 👋
+
+We sincerely appreciate the [**KunLunXin**](https://www.kunlunxin.com/) team for their support in providing GPU resources, which enabled efficient model adaptation debugging, comprehensive end-to-end testing, and broader model compatibility.
 
 ## License
 
