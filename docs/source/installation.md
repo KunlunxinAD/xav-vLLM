@@ -11,7 +11,7 @@ This document describes how to install vllm-kunlun manually.
   - vLLM (same version as vllm-kunlun)
 
 ## Setup environment using container
-We provide a clean, minimal base image for your use`wjie520/vllm_kunlun:v0.0.1`.You can pull it using the `docker pull` command.
+We provide a clean, minimal base image for your use`iregistry.baidu-int.com/kunlunxin-self-driving/xav:v1.4.0`.You can pull it using the `docker pull` command.
 ### Container startup script
 
 :::::{tab-set}
@@ -31,7 +31,7 @@ if [ $XPU_NUM -gt 0 ]; then
     done
     DOCKER_DEVICE_CONFIG="${DOCKER_DEVICE_CONFIG} --device=/dev/xpuctrl:/dev/xpuctrl"
 fi
-export build_image="wjie520/vllm_kunlun:v0.0.1"
+export build_image="iregistry.baidu-int.com/kunlunxin-self-driving/xav:v1.4.0"
 docker run -itd ${DOCKER_DEVICE_CONFIG} \
     --net=host \
     --cap-add=SYS_PTRACE --security-opt seccomp=unconfined \
@@ -48,16 +48,16 @@ docker run -itd ${DOCKER_DEVICE_CONFIG} \
 ## Install vLLM-kunlun
 ### Install vLLM 0.10.1.1
 ```
-conda activate vllm_kunlun_0.10.1.1
+conda activate python310_torch25_cuda
 
 pip install vllm==0.10.1.1 --no-build-isolation --no-deps 
 ```
 ### Build and Install
 Navigate to the vllm-kunlun directory and build the package:
 ```
-git clone https://github.com/baidu/vLLM-Kunlun
+git clone https://github.com/KunlunxinAD/xav-vLLM.git
 
-cd vLLM-Kunlun
+cd xav-vLLM
 
 pip install -r requirements.txt
 
@@ -69,18 +69,11 @@ python setup.py install
 ### Replace eval_frame.py
 Copy the eval_frame.py patch:
 ```
-cp vllm_kunlun/patches/eval_frame.py /root/miniconda/envs/vllm_kunlun_0.10.1.1/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py
+cp xav-vLLM/patches/eval_frame.py /root/miniconda/envs/python310_torch25_cuda/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py
 ```
-## Update xpytorch
-```
-wget -O xpytorch-cp310-torch251-ubuntu2004-x64.run https://klx-sdk-release-public.su.bcebos.com/kunlun2aiak_output/0830/xpytorch-cp310-torch251-ubuntu2004-x64.run
-
-bash xpytorch-cp310-torch251-ubuntu2004-x64.run
-```
-
 ## Install custom ops
 ```
-pip install https://cce-ai-models.bj.bcebos.com/v1/dongxinyu03/vllm/output/xtorch_ops-0.1.1799%2Bdbdeb408-cp310-cp310-linux_x86_64.whl
+pip install https://klx-sdk-release-public.su.bcebos.com/xav/xav_vllm/v0.10.1.1/20251106/xtorch_ops-0.1.2071%2B0207a916-cp310-cp310-linux_x86_64.whl
 
 pip install https://cce-ai-models.bj.bcebos.com/liangyucheng/xspeedgate_ops-0.0.0-cp310-cp310-linux_x86_64.whl
 ```
@@ -90,7 +83,7 @@ pip install https://cce-ai-models.bj.bcebos.com/liangyucheng/xspeedgate_ops-0.0.
 ### Set up the environment
 
 ```
-chmod +x /workspace/vLLM-Kunlun/setup_env.sh && source /workspace/vLLM-Kunlun/setup_env.sh
+chmod +x /workspace/xav-vLLM/setup_env.sh && source /workspace/xav-vLLM/setup_env.sh
 ```
 
 ### Run the server
