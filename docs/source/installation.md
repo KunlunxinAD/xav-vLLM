@@ -11,7 +11,7 @@ This document describes how to install vllm-kunlun manually.
   - vLLM (same version as vllm-kunlun)
 
 ## Setup environment using container
-We provide a clean, minimal base image for your use`iregistry.baidu-int.com/xmlir/xmlir_ubuntu_2004_x86_64:v0.32`.You can pull it using the `docker pull` command.
+We provide a clean, minimal base image for your use`iregistry.baidu-int.com/kunlunxin-self-driving/xav:v1.4.0`.You can pull it using the `docker pull` command.
 ### Container startup script
 
 :::::{tab-set}
