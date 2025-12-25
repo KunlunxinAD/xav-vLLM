@@ -55,9 +55,9 @@ pip install vllm==0.11.0 --no-build-isolation --no-deps
 ### Build and Install
 Navigate to the vllm-kunlun directory and build the package:
 ```
-git clone https://github.com/baidu/vLLM-Kunlun
+git clone https://github.com/KunlunxinAD/xav-vLLM.git
 
-cd vllm-kunlun
+cd xav-vLLM
 
 pip install -r requirements.txt
 
@@ -71,12 +71,6 @@ Copy the eval_frame.py patch:
 ```
 cp vllm_kunlun/patches/eval_frame.py /root/miniconda/envs/python310_torch25_cuda/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py
 ```
-## Install the KL3-customized build of PyTorch
-```
-wget -O xpytorch-cp310-torch251-ubuntu2004-x64.run https://baidu-kunlun-public.su.bcebos.com/v1/baidu-kunlun-share/1130/xpytorch-cp310-torch251-ubuntu2004-x64.run?authorization=bce-auth-v1%2FALTAKypXxBzU7gg4Mk4K4c6OYR%2F2025-12-02T05%3A01%3A27Z%2F-1%2Fhost%2Ff3cf499234f82303891aed2bcb0628918e379a21e841a3fac6bd94afef491ff7
-bash xpytorch-cp310-torch251-ubuntu2004-x64.run
-```
-
 ## Install custom ops
 ```
 pip install "https://baidu-kunlun-public.su.bcebos.com/v1/baidu-kunlun-share/1130/xtorch_ops-0.1.2209%2B6752ad20-cp310-cp310-linux_x86_64.whl?authorization=bce-auth-v1%2FALTAKypXxBzU7gg4Mk4K4c6OYR%2F2025-12-05T06%3A18%3A00Z%2F-1%2Fhost%2F14936c2b7e7c557c1400e4c467c79f7a9217374a7aa4a046711ac4d948f460cd"

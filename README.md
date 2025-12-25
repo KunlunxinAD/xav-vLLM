@@ -112,7 +112,7 @@ Please use the following recommended versions to get started quickly:
 
 | Version | Release type | Doc |
 |----------|---------------|-----|
-| v0.11.0 | Latest stable version | [QuickStart](./docs/_build/html/quick_start.html) and [Installation](./docs/_build/html/installation.html) for more details |
+| v0.11.0 | Latest stable version | [QuickStart](./docs/_build/html/quick_start.html) and [Installation](./docs/source/installation.md) for more details |
 
 ---
 
