@@ -124,7 +124,7 @@ If you're interested in contributing to this project, please read [Contributing]
 
 We opened the project at Dec 8, 2025. We love open source and collaboration ❤️
 
-[![Star History Chart](https://api.star-history.com/svg?repos=baidu/vLLM-Kunlun&type=Date)](https://www.star-history.com/#baidu/vLLM-Kunlun&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=baidu/vLLM-Kunlun&type=date&legend=bottom-right)](https://www.star-history.com/#baidu/vLLM-Kunlun&type=date&legend=bottom-right)
 
 ## Sponsors 👋
 

@@ -28,9 +28,10 @@ Below is a list of maintainers for vLLM Kunlun, presented in no particular order
 | <img width="30px" src="https://avatars.githubusercontent.com/u/129976105">  |         [xyDong0223](https://github.com/xyDong0223)         |     Baidu    |
 | <img width="30px" src="https://avatars.githubusercontent.com/u/28590172">  |         [baoqian426](https://github.com/baoqian426)         |     Baidu    |
 | <img width="30px" src="https://avatars.githubusercontent.com/u/7290453">  |         [chanzhennan](https://github.com/chanzhennan)         |     Baidu    |
-| <img width="30px" src="https://avatars.githubusercontent.com/u/48324756">  |         [Hanyu-Jin](https://github.com/Hanyu-Jin)         |     KunLunXin    |
+| <img width="30px" src="https://avatars.githubusercontent.com/u/48324756">  |         [Hanyu-Jin](https://github.com/Hanyu-Jin)         |     Baidu    |
 | <img width="30px" src="https://avatars.githubusercontent.com/u/72788951">  |         [chenyili0619](https://github.com/chenyili0619)         |     Baidu    |
 | <img width="30px" src="https://avatars.githubusercontent.com/u/62470572">  |         [ldh2020](https://github.com/ldh2020)         |     Baidu    |
+| <img width="30px" src="https://avatars.githubusercontent.com/u/249219756">  |         [ZhangJingYu0823](https://github.com/ZhangJingYu0823)         |     KunLunXin    |
 
 
 For more information, please refer to the [website](https://vllm-kunlun.readthedocs.io/en/latest/community/contributors.html).
