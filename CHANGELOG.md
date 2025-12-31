@@ -4,7 +4,6 @@ Changelog
 
 本项目版本遵守[Semantic Versioning]和[PEP-440]。
 
-[Unreleased]
 ---
 ### Added
 - 这里记录新添加的内容
@@ -15,9 +14,6 @@ Changelog
 ---
 ### Added
 - 创建项目
-
-
-[Unreleased]: http://icode.baidu.com/repos/baidu/hac-aiacc/vllm-kunlun/merge/0.1.0...master
 
 [Keep a Changelog]: https://keepachangelog.com/zh-CN/1.0.0/
 [Semantic Versioning]: https://semver.org/lang/zh-CN/
