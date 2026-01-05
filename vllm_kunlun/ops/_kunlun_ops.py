@@ -417,7 +417,6 @@ class KunlunOps:
         w1: torch.Tensor,
         w2: torch.Tensor,
         router_logits: torch.Tensor,
-        linear_weights: torch.Tensor,
         ep_rank: int,
         moe_top_k: int,
         renormalize: bool,
